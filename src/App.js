@@ -126,6 +126,7 @@ function MovieDetails({ selectedId, onCloseMovie,onAddWatched,watched }) {
   //     }
   //   },[onCloseMovie]
   // )
+  // issue fix
   useKey('Escape', onCloseMovie )
  
   useEffect(
